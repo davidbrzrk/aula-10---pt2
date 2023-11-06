@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  header {
+    border: solid 2px black;
+    background-image: url("https://i.pinimg.com/736x/7d/a6/96/7da696f1987d39249d42946f331ccc1b--declutter-lego.jpg");
+    background-position: center;
+    text-align: center;
+    height: 20vh;
+  }
+
+  main{
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/bzZIujvmK6EiajFntYJeDoqMbvI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/04/08/956/n/1922507/5b76eee404090c1b_The_Simpsons/i/Simpsons-Zoom-Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  section{
+    display: flex;
+  }
+
+  img{
+    width: 20vw;
+  }
+
+  .bart{
+    position: relative;
+    top: 60px;
+  }
+
+  .marge{
+    position: relative;
+    top: 150px;
+    right: 200px;
+  }
+
+  .lisa{
+    position: relative;
+    left: 500px;
+    top: 150px;
+  }
